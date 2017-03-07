@@ -10,7 +10,7 @@ import com.raja.config.JpaConfig;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-@Import(JpaConfig.class)
+@Import({JpaConfig.class})
 public class Application {
 	
 	
